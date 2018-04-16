@@ -1,0 +1,119 @@
+/* Simple Remorseless CSS, HenryFaber.com variant */
+
+body {
+	
+	
+	font-size: 62.5%;
+	font-family: Helvetica, "Helvetica Neue", "Helvetica CY", "Universe", Arial, "MS Trebuchet", sans-serif;
+
+	
+}
+	
+h1 {
+	text-transform: uppercase;
+	color: #666666; 
+	font-weight: bold;
+	font-size: 3.5em;
+	
+}
+
+h2 {
+		font-variant: small-caps;
+		text-transform: uppercase;
+		color: #666666; 
+		font-weight: bold;
+		font-size: 1.4em;
+		padding: 2em 0 0 0;
+
+	}
+
+a, a:link, a:visited {
+	color: black;
+	border: 1px solid black;
+	padding: .3em;
+	margin: .2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .74em;
+	
+}
+
+ a:hover {
+	
+	color: white;
+	background-color: #666666;
+	border: 1px solid #666666;
+}
+
+#container {
+	
+	width: 850px;
+}
+
+#header, #column_a {
+	width: 500px;
+	float: left;
+	margin-left: 4em;
+	margin-right:6em;
+}
+
+#header {
+	
+	margin-top: 0;
+}
+
+#column_a {
+	margin-top: 4em;
+}
+
+#column_a p, #column_b p {
+	
+	line-height: 1.45em;
+	font-size: 1.35em;
+	font-family: "Lucida Sans Unicode", "Arial Unicode MS", "Lucida Sans", "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+}
+
+.mission {
+	font-weight: bold;
+}
+
+#column_b {
+	
+	float: left;
+	width: 200px;
+	z-index: 0;
+	font-size: smaller;
+	
+	
+}
+
+#column_b h2 {
+		font-variant: small-caps;
+		text-transform: uppercase;
+		color: #666666; 
+		font-weight: bold;
+		/* font-size: 1.2em; */
+		padding: 4em 0 0 0;
+
+	}
+
+#twitter_div {
+	
+	
+	
+	
+	
+}
+
+
+#twitter_div a, #twitter_div a:link, #twitter_div a:visited {
+	color: black;
+	text-decoration: none;
+	
+	
+}
+
+#twitter_div a:hover {
+	
+	color: black;
+}
